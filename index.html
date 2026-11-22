@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Santorino | Tienda de ropa</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="announcement">LA SENCILLEZ ES LA CLAVE DE LA VERDADERA ELEGANCIA</div>
+
+<header class="header">
+  <a class="logo" href="#inicio">SANTORINO</a>
+  <button class="menu-toggle" id="menuToggle">☰</button>
+  <nav id="navigation">
+    <a href="#inicio">Inicio</a>
+    <a href="#sucursales">Sucursales</a>
+    <a href="#catalogo">Catálogo</a>
+    <a href="#superior">Prendas superiores</a>
+    <a href="#inferior">Prenda inferior</a>
+    <a href="#calzado">Calzado</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  <button class="cart-button" id="openCart">🛒 <span id="cartCount">0</span></button>
+</header>
+
+<main>
+<section class="hero" id="inicio">
+  <div>
+    <p class="eyebrow">ESTILO URBANO · PIEZAS SELECCIONADAS</p>
+    <h1>Santorino</h1>
+    <h2>Enzo Santorino</h2>
+    <p class="intro">Encuentra prendas y calzado que combinan comodidad, personalidad y un estilo sencillo.</p>
+    <a class="primary" href="#catalogo">Ver catálogo completo</a>
+  </div>
+  <div class="hero-image">
+    <img src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=1000&q=85" alt="Ropa urbana">
+    <span>NUEVA COLECCIÓN</span>
+  </div>
+</section>
+
+<section class="branches" id="sucursales">
+  <div class="section-heading">
+    <div><p class="eyebrow">ENCUÉNTRANOS</p><h2>Nuestras sucursales</h2></div>
+    <p>Conoce nuestros puntos de venta Santorino</p>
+  </div>
+
+  <div class="branch-grid">
+    <article class="branch-card">
+      <img src="Imagenes/Fachada de lujo Santorino.png" alt="Imagen Sucursal New York">
+      <div class="branch-content">
+        <span class="branch-number">01</span>
+        <p class="branch-label">SANTORINO</p>
+        <h3>Sucursal Estados Unidos Nueva York</h3>
+        <p>Dirección: 452 Mercer Street, Suite 3B, New York, NY 10013</p>
+        <p>Horario: 10:00 AM - 8:00 PM</p>
+        <a href="#contacto">Más información →</a>
+      </div>
+    </article>
+
+    <article class="branch-card">
+      <img src="Imagenes/TOKYO.jpg" alt="Imagen Sucursal Tokyo" onerror="this.src='https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=85'">
+      <div class="branch-content">
+        <span class="branch-number">02</span>
+        <p class="branch-label">SANTORINO</p>
+        <h3>Sucursal Japón (Tokio)</h3>
+        <p>Dirección: 3-18-7 Minami-Aoyama, Minato-ku, Tokyo 107-0062, Japan</p>
+        <p>Horario: 10:00 AM - 9:00 PM</p>
+        <a href="#contacto">Más información →</a>
+      </div>
+    </article>
+
+    <article class="branch-card">
+      <img src="Imagenes/Londres.jpeg" alt="Sucursal Londres">
+      <div class="branch-content">
+        <span class="branch-number">03</span>
+        <p class="branch-label">SANTORINO</p>
+        <h3>Sucursal Reino Unido (Londres)</h3>
+        <p>Dirección: 48B Conduit Street, Mayfair, London W1S 2YR, United Kingdom</p>
+        <p>Horario: 9:00 AM - 8:00 PM</p>
+        <a href="#contacto">Más información →</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="catalog featured" id="destacados">
+  <div class="section-heading">
+    <div><p class="eyebrow">SELECCIÓN SANTORINO</p><h2>Productos destacados</h2></div>
+    <p>Una selección de nuestros favoritos.</p>
+  </div>
+
+  <div class="products">
+    <article class="product" data-category="superior">
+      <img src="Imagenes/Conjunto HD.webp" alt="Conjunto deportivo Hermes">
+      <small>PRENDA SUPERIOR</small>
+      <h3>Conjunto deportivo Hermes</h3>
+      <p class="price">$7,000 USD</p>
+      <button class="add">Agregar al carrito</button>
+    </article>
+
+    <article class="product" data-category="superior">
+      <img src="Imagenes/CH CAMISA.webp" alt="Camisa Chrome Hearts Pink">
+      <small>PRENDA SUPERIOR</small>
+      <h3>Camisa Chrome Hearts (Pink)</h3>
+      <p class="price">$3,705 USD</p>
+      <button class="add">Agregar al carrito</button>
+    </article>
+
+    <article class="product" data-category="inferior">
+      <img src="Imagenes/PANTALON CH.avif" alt="Pantalón denim">
+      <small>PRENDA INFERIOR</small>
+      <h3>Pantalón denim</h3>
+      <p class="price">$23,200 USD</p>
+      <button class="add">Agregar al carrito</button>
+    </article>
+
+    <article class="product" data-category="calzado">
+      <img src="Imagenes/BAPESTA.webp" alt="BAPESTA Panda">
+      <small>CALZADO</small>
+      <h3>BAPESTA (Panda)</h3>
+      <p class="price">$355 USD</p>
+      <button class="add">Agregar al carrito</button>
+    </article>
+  </div>
+
+  <div class="catalog-more">
+    <a class="primary" href="#catalogo">Ver todos los productos</a>
+  </div>
+</section>
+
+<section class="catalog full-catalog" id="catalogo">
+  <div class="section-heading">
+    <div><p class="eyebrow">EXPLORA SANTORINO</p><h2>Catálogo completo</h2></div>
+    <p>Encuentra más opciones para tu estilo.</p>
+  </div>
+
+  <div class="filters">
+    <button class="filter active" data-filter="todos">Todo</button>
+    <button class="filter" data-filter="superior">Prendas superiores</button>
+    <button class="filter" data-filter="inferior">Prenda inferior</button>
+    <button class="filter" data-filter="calzado">Calzado</button>
+  </div>
+
+  <h3 class="category-title" id="superior">Prendas superiores</h3>
+  <div class="products">
+    <article class="product" data-category="superior">
+      <img src="Imagenes/PRADA.jpg" alt="Conjunto Prada">
+      <small>PRENDA SUPERIOR</small>
+      <h3>Conjunto Prada</h3>
+      <p class="price">$2,150 USD</p>
+      <button class="add">Agregar al carrito</button>
+    </article>
+
+    <article class="product" data-category="superior">
+      <img src="Imagenes/Balenciaga.jpg" alt="Camisa Wrong Sleeve">
+      <small>PRENDA SUPERIOR</small>
+      <h3>Camisa Wrong Sleeve para Hombre en Rojo/azul Marino</h3>
+      <p class="price">$1,632 USD</p>
+      <button class="add">Agregar al carrito</button>
+    </article>
+
+    <article class="product" data-category="superior">
+      <img src="Imagenes/MONCLER.avif" alt="Moncler Maya 70 by Palm Angels">
+      <small>PRENDA SUPERIOR</small>
+      <h3>Moncler Maya 70 by Palm Angels</h3>
+      <p class="price">$10,900 USD</p>
+      <button class="add">Agregar al carrito</button>
+    </article>
+
+    <article class="product" data-category="superior">
+      <img src="Imagenes/LRP.webp" alt="Loro Piana Camisa">
+      <small>PRENDA SUPERIOR</small>
+      <h3>Loro Piana Camisa con Cuello Italiano (Azul)</h3>
+      <p class="price">$5,000 USD</p>
+      <button class="add">Agregar al carrito</button>
+    </article>
+  </div>
+
+  <h3 class="category-title" id="inferior">Prendas inferiores</h3>
+  <div class="products">
+    <article class="product" data-category="inferior">
+      <img src="Imagenes/SKATELV.avif" alt="Pantalón LV SKATE">
+      <small>PRENDA INFERIOR</small>
+      <h3>Pantalón LV SKATE</h3>
+      <p class="price">$2,537 USD</p>
+      <button class="add">Agregar al carrito</button>
+    </article>
+
+    <article class="product" data-category="inferior">
+      <img src="Imagenes/CHL.jpeg" alt="Chrome Hearts denim jeans in Black">
+      <small>PRENDA INFERIOR</small>
+      <h3>Chrome Hearts denim jeans in Black</h3>
+      <p class="price">$9,129 USD</p>
+      <button class="add">Agregar al carrito</button>
+    </article>
+
+    <article class="product" data-category="inferior">
+      <img src="Imagenes/CHPINK.webp" alt="Chrome Hearts Pink Cross">
+      <small>PRENDA INFERIOR</small>
+      <h3>Chrome Hearts Pink Cross</h3>
+      <p class="price">$15,000 USD</p>
+      <button class="add">Agregar al carrito</button>
+    </article>
+  </div>
+
+  <h3 class="category-title" id="calzado">Calzado</h3>
+  <div class="products">
+    <article class="product" data-category="calzado">
+      <img src="Imagenes/bapesta italy.jpeg" alt="BAPESTA Italy">
+      <small>CALZADO</small>
+      <h3>BAPESTA Italy</h3>
+      <p class="price">$325 USD</p>
+      <button class="add">Agregar al carrito</button>
+    </article>
+
+    <article class="product" data-category="calzado">
+      <img src="Imagenes/MQG.webp" alt="McQueen Graffiti">
+      <small>CALZADO</small>
+      <h3>McQueen Graffiti</h3>
+      <p class="price">$596 USD</p>
+      <button class="add">Agregar al carrito</button>
+    </article>
+
+    <article class="product" data-category="calzado">
+      <img src="Imagenes/DIORB33.jpeg" alt="DIORB33">
+      <small>CALZADO</small>
+      <h3>DIORB33</h3>
+      <p class="price">$3134 USD</p>
+      <button class="add">Agregar al carrito</button>
+    </article>
+  </div>
+</section>
+
+<section class="promo">
+  <div>
+    <p class="eyebrow">VISTE A TU MANERA</p>
+    <h2>Menos complicaciones<br>más estilo.</h2>
+  </div>
+  <a class="primary" href="#catalogo">Explorar prendas</a>
+</section>
+</main>
+
+<footer id="contacto">
+  <div class="logo">Santorino</div>
+  <p>La sencillez es la clave de la verdadera elegancia.</p>
+  <p>contacto@santorino.com</p>
+  <p>Instagram: @santorino</p>
+  <p>© 2026 Santorino</p>
+</footer>
+
+<div class="overlay" id="cartModal">
+  <section class="modal">
+    <button class="close" data-close="cartModal">×</button>
+    <p class="eyebrow">TU SELECCIÓN</p>
+    <h2>Carrito de compras</h2>
+    <div id="cartItems"></div>
+    <div class="subtotal">
+      <span>Subtotal</span>
+      <strong id="cartSubtotal">$0.00</strong>
+    </div>
+    <p class="note">El envío se cotiza al coordinar el pedido.</p>
+    <button class="pay" id="checkoutButton">Continuar para pagar</button>
+    <button class="back" data-close="cartModal">Seguir comprando</button>
+  </section>
+</div>
+
+<div class="overlay" id="checkoutModal">
+  <section class="modal checkout">
+    <button class="close" data-close="checkoutModal">×</button>
+    <div class="check-icon">✓</div>
+    <p class="eyebrow">RESUMEN DE COMPRA</p>
+    <h2>¡Ya casi es tuyo!</h2>
+    <p class="note">Revisa los productos y el total de tu compra.</p>
+    <div id="checkoutSummary" class="summary"></div>
+    <div class="total">
+      <span>Total a pagar</span>
+      <strong id="checkoutTotal">$0.00</strong>
+    </div>
+    <p class="warning">Esta es una demostración escolar. No se realiza ningún cobro real.</p>
+    <button class="pay" id="confirmOrder">Confirmar pedido de demostración</button>
+    <button class="back" data-close="checkoutModal">Volver al carrito</button>
+  </section>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
